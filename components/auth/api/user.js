@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // mongodb User Model
-const User = require('../models/User');
+const User = require('../models/user');
 
 //password encryption
 const bcrypt = require('bcryptjs');
